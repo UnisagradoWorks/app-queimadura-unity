@@ -1,40 +1,47 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SelectMenuScript : MonoBehaviour
 {
-    //Segue-se o padrão de cenas no index baseado na ordem dos menus 
-    //0 é o menu inicial
-    //1 = Historias
-    //2 = Quiz
-    //3 = Créditos
+    private void Start()
+    {
+        DontDestroyOnLoad(this);
+    }
+
     public void SelectMenu()
     {
-        const int sceneIndex = 0;
-        var sceneLoading = SceneManager.LoadSceneAsync(sceneIndex);
-        sceneLoading.allowSceneActivation = true;
+        const string path  = "Assets/Scenes/Inicio.unity";
+        var sceneLoading = SceneManager.LoadSceneAsync(path);
+        var cena = SceneManager.GetSceneByPath(path);
+        SceneManager.SetActiveScene(cena);
     }
 
     public void SelectHistories()
     {
-        const int sceneIndex = 1;
-        var sceneLoading = SceneManager.LoadSceneAsync(sceneIndex);
-        sceneLoading.allowSceneActivation = true;
+        const string path  = "Assets/Scenes/Historias.unity";
+        var sceneLoading = SceneManager.LoadSceneAsync(path);
+        var cena = SceneManager.GetSceneByPath(path);
+        SceneManager.SetActiveScene(cena);
     }
 
     public void SelectQuiz()
     {
-        const int sceneIndex = 2;
-        var sceneLoading = SceneManager.LoadSceneAsync(sceneIndex);
-        sceneLoading.allowSceneActivation = true;
+        
+        const string path  = "Assets/Scenes/Quiz.unity";
+        var sceneLoading = SceneManager.LoadSceneAsync(path);
+        var cena = SceneManager.GetSceneByPath(path);
+        SceneManager.SetActiveScene(cena);
+
     }
 
     public void SelectCredits()
     {
-        const int sceneIndex = 3;
-        var sceneLoading = SceneManager.LoadSceneAsync(sceneIndex);
-        sceneLoading.allowSceneActivation = true;
+        const string path  = "Assets/Scenes/Creditos.unity";
+        var sceneLoading = SceneManager.LoadSceneAsync(path);
+        var cena = SceneManager.GetSceneByPath(path);
+        SceneManager.SetActiveScene(cena);
     }
 
 

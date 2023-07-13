@@ -8,4 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Inicio.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: a0a51c1d0f3197e45979b7342fa9163f
+  - enabled: 1
+    path: Assets/Scenes/Devs.unity
+    guid: 0bff59597e1da10449e778c1003691c5
+  - enabled: 1
+    path: Assets/Scenes/Ensino.unity
+    guid: 6529ad1e84c22ed4ab31e80acb46faac
+  - enabled: 1
+    path: Assets/Scenes/Historias.unity
+    guid: 526d06d4889177542ab641555b72bf58
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: eee4e9713dcefdb4b9de7088bb9f31b5
+  - enabled: 1
+    path: Assets/Scenes/referencias.unity
+    guid: b66153492f7e8ba42bd898f23d8bf9af
   m_configObjects: {}
