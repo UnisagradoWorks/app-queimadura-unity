@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Configs/Poppins/OFL.txt.meta
 guid: df25024dbd0b33e47adb33b0b47db58f
 TextScriptImporter:
+========
+guid: 5d34a32690615fa4d9107a969e331873
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> b790f68bffa36bb97220c5c265ff7178e7f39fd8:Assets/Images/Buttons/References.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
