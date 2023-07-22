@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3093304891912114955}
   - component: {fileID: 3093304891912114956}
   m_Layer: 5
-  m_Name: menu inicial
+  m_Name: voltar button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,9 +34,9 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -70, y: 55}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 70, y: 55}
   m_SizeDelta: {x: 140, y: 82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3093304891912114954
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 30c6624ac913223439474e8ae2addbed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4c66e2863197d744dba3bcfb4785847a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -123,7 +123,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 9179488515090078016, guid: 9f8620e41d2ce0e4a90970f259e8734d, type: 3}
         m_TargetAssemblyTypeName: SelectMenuScript, Assembly-CSharp
-        m_MethodName: SelectMenu
+        m_MethodName: ReturnAnteriorScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

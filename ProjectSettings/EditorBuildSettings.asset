@@ -18,10 +18,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Ensino.unity
     guid: 6529ad1e84c22ed4ab31e80acb46faac
   - enabled: 1
-    path: Assets/Scenes/Historias.unity
+    path: Assets/Scenes/Historias/Historias.unity
     guid: 526d06d4889177542ab641555b72bf58
   - enabled: 1
-    path: Assets/Scenes/Quiz.unity
+    path: Assets/Scenes/Quiz/Quiz.unity
     guid: eee4e9713dcefdb4b9de7088bb9f31b5
   - enabled: 1
     path: Assets/Scenes/referencias.unity
